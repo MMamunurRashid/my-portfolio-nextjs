@@ -4,7 +4,7 @@ import { Mail, Linkedin, Github, Phone } from "lucide-react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+import { FaLocationArrow } from "react-icons/fa";
 
 export default function ContactPage() {
   const form = useRef<HTMLFormElement | null>(null);
@@ -14,37 +14,47 @@ export default function ContactPage() {
   const [toastMessage, setToastMessage] = useState("");
   const [toastType, setToastType] = useState<"success" | "error">("success");
 
+  // gmail app password
+  // ospq txef prsu bffe
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("loading");
 
     if (!form.current) return;
 
-    emailjs
-      .sendForm(
-        "service_0c8hu2u",
-        "template_ojy3xoc",
-        form.current,
-        "cGJ5R_Z3F_IMfwldv"
-      )
-      .then(() => {
-        setStatus("success");
-        form.current?.reset();
+    const fd = new FormData(form.current);
+    const payload = {
+      name: fd.get("name") as string,
+      email: fd.get("email") as string,
+      message: fd.get("message") as string,
+    };
 
-        setToastMessage("Message sent successfully!");
-        setToastType("success");
-        setShowToast(true);
-        setTimeout(() => setShowToast(false), 3000);
-      })
-      .catch(() => {
-        setStatus("error");
-
-        setToastMessage("Oops! Something went wrong.");
-        setToastType("error");
-        setShowToast(true);
-        setTimeout(() => setShowToast(false), 3000);
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
       });
+
+      if (!res.ok) throw new Error("Failed to send");
+
+      setStatus("success");
+      form.current?.reset();
+
+      setToastMessage("Message sent successfully!");
+      setToastType("success");
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 3000);
+    } catch (err) {
+      console.error(err);
+      setStatus("error");
+
+      setToastMessage("Oops! Something went wrong.");
+      setToastType("error");
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 3000);
+    }
   };
 
   return (
@@ -163,7 +173,7 @@ export default function ContactPage() {
               disabled={status === "loading"}
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors duration-300"
             >
-              {status === "loading" ? "Sending..." : "Send Message ✉️"}
+              {status === "loading" ? "Sending..." : "Send Message"} <FaLocationArrow className="inline-block w-4 h-4 ml-2" />
             </button>
 
             {status === "success" && (

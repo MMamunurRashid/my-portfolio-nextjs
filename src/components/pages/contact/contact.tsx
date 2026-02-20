@@ -43,7 +43,7 @@ export default function ContactSection() {
                 </div>
 
                 <Link
-                    href="mailto:mdmamun.iubat.m@gmail.com"
+                    href="/contact"
                     className="inline-block "
                 >
                     <MovingBorderButton

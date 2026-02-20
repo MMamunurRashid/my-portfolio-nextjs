@@ -8,9 +8,43 @@ import { GlowingEffect } from "@/components/ui/glowing-effect";
 
 const experiences = [
     {
+        role: "Software Engineer",
+        company: "eManager IT LTD",
+        period: "August 2025 - Present",
+        description: [
+            "Develop and maintain scalable web applications using MongoDB, Express.js, React.js, Next.js and Node.js.",
+            "Design and implement RESTful APIs with efficient data structures and optimized database queries.",
+            "Build responsive, interactive front-end interfaces with React.js, ensuring cross-browser compatibility and performance.",
+            "Integrate authentication and authorization mechanisms such as JWT and role-based access control.",
+            "Optimize backend performance and ensure scalability through effective query handling and API design.",
+            "Collaborate with UI/UX teams to deliver seamless user experiences.",
+        ],
+        projects: [
+            {
+                name: "ERP Solution",
+                details: [
+                    "Implemented a modular, scalable ERP system integrating CRM, HRM, Accounting, Taxation, and Task Management into a unified platform.",
+                    "Developed role-based dashboards and workflow automation to streamline operations, employee management, financial tracking, and compliance processes.",
+                    "Optimized database performance and reporting through structured API architecture and efficient data handling.",                    
+                ],
+                tech: ["Next.js", "TypeScript", "Redux", "NodeJs", "ExpressJs", "Zod", "TailwindCSS", "MongoDB"],
+            },
+            {
+                name: "E-commerce Solution",
+                details: [
+                    "Built a comprehensive e-commerce platform with features like product management, shopping cart, order processing, and user dashboards.",
+                    "Implemented secure authentication, payment integration, and optimized performance for a seamless shopping experience.",
+                    "Implemented CI/CD pipelines, Dockerized applications, and automated deployments.",
+
+                ],
+                tech: ["Next.js", "TypeScript", "NodeJs", "ExpressJs", "MongoDB", "TailwindCSS", "SCSS"],
+            }
+        ],
+    },
+    {
         role: "Full Stack Developer",
         company: "Halcyon Digital",
-        period: "June 2024 - Present",
+        period: "June 2024 - August 2025",
         description: [
             "Developed scalable APIs and database solutions with Node.js, Express, and MySQL.",
             "Building modern, fast, and accessible web applications with Next.js, TypeScript, Redux, TailwindCSS, etc.",
@@ -24,7 +58,7 @@ const experiences = [
                     "Designed dynamic User and Admin Dashboards for efficient management.",
                     "Optimized e-commerce workflows for performance and user satisfaction.",
                 ],
-                tech: ["Next.js", "TypeScript", "NodeJs", "ExpressJs", "MySQL", "TailwindCSS", "SCSS"],
+                tech: ["Next.js", "TypeScript", "NodeJs", "ExpressJs", "MongoDB", "TailwindCSS", "SCSS"],
             },
         ],
     },

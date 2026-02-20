@@ -125,8 +125,13 @@ export default function AboutPage() {
                             <FaBriefcase /> Experience
                         </h2>
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            💼 Software Engineer @ eManager IT LTD<br />
+                            🗓️ August 2025 – Present<br />
+                            <span >🚀 Develop and maintain scalable web applications using MERN stack, design RESTful APIs, and build responsive front-end interfaces.</span>
+                        </p>
+                        <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-5">
                             💼 Full Stack Developer @ Halcyon Digital<br />
-                            🗓️ June -2024 – Present<br />
+                            🗓️ June 2024 – August 2025<br />
                             🚀 Built scalable dashboards, APIs, and responsive UIs with React & Node.js.
                         </p>
                     </motion.div>

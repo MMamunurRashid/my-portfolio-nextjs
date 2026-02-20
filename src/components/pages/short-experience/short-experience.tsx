@@ -6,24 +6,26 @@ import Link from "next/link";
 
 const shortExperiences = [
     {
+        role: "Software Engineer",
+        company: "eManager IT LTD",
+        period: "August 2025 - Present",
+        description: [
+            "Develop and maintain scalable web applications using MongoDB, Express.js, React.js, Next.js and Node.js.",
+            "Design and implement RESTful APIs with efficient data structures and optimized database queries.",
+            "Build responsive, interactive front-end interfaces with React.js, ensuring cross-browser compatibility and performance.",        
+            "Collaborate with UI/UX teams to deliver seamless user experiences.",
+        ],
+    },
+    {
         role: "Full Stack Developer",
         company: "Halcyon Digital",
-        period: "June 2024 - Present",
+        period: "June 2024 - August 2025",
         description: [
             "Developed scalable APIs and database solutions with Node.js, Express, and MySQL.",
             "Building modern, fast, and accessible web applications with Next.js, TypeScript, Redux, TailwindCSS, etc.",
             "Implemented CI/CD pipelines, Dockerized applications, and automated deployments.",
         ],
-    },
-    {
-        role: "Frontend Engineer Intern",
-        company: "Qwik IT Services",
-        period: "November 2023 - December 2023",
-        description: [
-            "Built modern, fast, and accessible web applications with Next.js, TypeScript, and TailwindCSS.",
-            "Collaborated with backend and ui teams to improve API performance and UX.",
-        ],
-    },
+    },    
 ];
 
 export default function ShortExperience() {
