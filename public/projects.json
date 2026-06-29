@@ -1,111 +1,140 @@
 [
-    {
-      "id": "11",
-      "img": "https://i.ibb.co/J3pLhWT/craft-hub-dp.png",
-      "name": "Craft Hub",
-      "description": "Craft marketplace with role-based dashboards for admin, seller, and buyers.",
-      "technology": "React, Nodejs, Express, MongoDB, TailwindCSS, Firebase, JWT etc.",
-      "liveLink": "https://craft-hub.web.app/",
-      "client": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/prcticum-project-client",
-      "server": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/practicum-project-server"
-    },
-    {
-      "id": "1",
-      "img": "https://i.ibb.co/mRBQWNd/foodo.png",
-      "name": "Foodo",
-      "description": "Restaurant management system with secure user roles, ordering, and dashboards.",
-      "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      "liveLink": "https://rms-foodo.web.app/",
-      "client": "https://github.com/MMamunurRashid/Foodo",
-      "server": "https://github.com/MMamunurRashid/Foodo-Server"
-    },
-    {
-      "id": "2",
-      "img": "https://i.ibb.co/SVxDYZq/Recycle-Clothes.jpg",
-      "name": "Recycle Clothes",
-      "description": "Eco-friendly marketplace to sell and buy secondhand clothes securely.",
-      "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      "liveLink": "https://recycle-clothe.web.app/",
-      "client": "https://github.com/MMamunurRashid/Used-Product-Resale",
-      "server": "https://github.com/MMamunurRashid/Used-Product-Resale-Server"
-    },
-    {
-      "id": "3",
-      "img": "https://i.ibb.co/7jCryNg/Doctors-portal.jpg",
-      "name": "Doctors Portal",
-      "description": "Appointment booking platform for patients and doctors with role access.",
-      "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      "liveLink": "https://doctors-portal-254e6.web.app/",
-      "client": "https://github.com/MMamunurRashid/doctors-portal-client",
-      "server": "https://github.com/MMamunurRashid/doctors-portal-server"
-    },
-    {
-      "id": "4",
-      "img": "https://i.ibb.co/C7GGYty/Smile-Photography.jpg",
-      "name": "Smile Photography",
-      "description": "Photography service platform with bookings, reviews, and user dashboards.",
-      "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
-      "liveLink": "https://smile-photography-df416.web.app/",
-      "client": "https://github.com/MMamunurRashid/Photograpy-Service",
-      "server": "https://github.com/MMamunurRashid/Photography-Service-Server"
-    },
-    {
-      "id": "5",
-      "img": "https://i.ibb.co/pbW5CZ6/course-hero.jpg",
-      "name": "Course Hero",
-      "description": "E-learning platform with course management and secure user enrollment.",
-      "technology": "React, Nodejs, Express, Firebase, TailwindCSS etc.",
-      "liveLink": "https://course-hero-1.web.app/",
-      "client": "https://github.com/MMamunurRashid/Course-Hero",
-      "server": "https://github.com/MMamunurRashid/Course-Hero-Server"
-    },
-    {
-      "id": "6",
-      "img": "https://i.ibb.co/hfpjtLf/quick-quiz.jpg",
-      "name": "Quick Quiz",
-      "description": "A simple quiz platform built with React and Netlify hosting.",
-      "technology": "React, React Router DOM, TailwindCSS(Daisy UI) Netlify etc.",
-      "liveLink": "https://quick-quiz-1.netlify.app/",
-      "client": "https://github.com/MMamunurRashid/Quick-Quiz"
-    },
-    {
-      "id": "7",
-      "img": "https://i.ibb.co/PtxfyqB/ema-john.jpg",
-      "name": "Ema-John E-commerce",
-      "description": "Full-stack e-commerce site with product search, cart, and authentication.",
-      "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
-      "liveLink": "https://ema-john-simple-492a4.web.app/",
-      "client": "https://github.com/MMamunurRashid/Ema-john-simple",
-      "server": "https://github.com/MMamunurRashid/ema-john-server"
-    },
-    {
-      "id": "8",
-      "img": "https://i.ibb.co/jbXQpgw/genius-car.jpg",
-      "name": "Genius Car - Car Service Center",
-      "description": "Car service booking and management site with admin dashboard.",
-      "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
-      "liveLink": "https://genius-car-850d5.web.app/",
-      "client": "https://github.com/MMamunurRashid/genius-car-client",
-      "server": "https://github.com/MMamunurRashid/genius-car-server"
-    },
-    {
-      "id": "9",
-      "img": "https://i.ibb.co/ns7F9HX/dragon-news.jpg",
-      "name": "Dragon News - News Portal",
-      "description": "News site built with authentication and categorized news feeds.",
-      "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
-      "liveLink": "https://dragon-news-c4e45.web.app/",
-      "client": "https://github.com/MMamunurRashid/dragon-news-client",
-      "server": "https://github.com/MMamunurRashid/dragon-news-server"
-    },
-    {
-      "id": "10",
-      "img": "https://i.ibb.co/1bq7Gqs/daily-activites.jpg",
-      "name": "Daily Activities",
-      "description": "Simple task planner to list and manage daily to-dos.",
-      "technology": "React, React Router DOM, TailwindCSS(Daisy UI), Netlify etc.",
-      "liveLink": "https://dailyactv.netlify.app/",
-      "client": "https://github.com/MMamunurRashid/Daily-Activities"
-    }
-  ]
-  
+  {
+    "id": "14",
+    "img": "https://i.ibb.co.com/67NN7RPf/glowique.png",
+    "name": "Glowique Beauty",
+    "description": "Glowique is a full-stack beauty and cosmetics e-commerce application. It has a public storefront for customers, customer account pages, and a full admin panel for catalog, order, purchase, POS, accounts, reports, frontend content, and store settings.",
+    "technology": "Node.js, Express.js, TypeScript, MongoDB, Mongoose, JWT, Zod, Multer, Cloudinary, Nodemailer, React, TypeScript, Tailwind CSS, Redux Toolkit and RTK Query, Framer Motion",
+    "liveLink": "https://glowique-mamun.vercel.app/",
+    "client": "https://github.com/MMamunurRashid/beauty_ecommerce",
+    "server": "https://github.com/MMamunurRashid/beauty_ecommerce"
+  },
+  {
+    "id": "13",
+    "img": "https://i.ibb.co.com/CK79zpXM/foodiecafeandrestaurant.png",
+    "name": "Foodie Cafe and Restaurant",
+    "description": "Foodie Cafe and Restaurant is a full-stack restaurant website with a public customer-facing site and a protected admin dashboard.",
+    "technology": "Node.js, Express.js, TypeScript, MongoDB, Mongoose, JWT, Zod, Multer, Cloudinary, Nodemailer, React, TypeScript, Tailwind CSS, Redux Toolkit and RTK Query, Framer Motion",
+    "liveLink": "https://foodiecafeandrestaurant.vercel.app/",
+    "client": "https://github.com/MMamunurRashid/restaurant-portfolio",
+    "server": "https://github.com/MMamunurRashid/restaurant-portfolio"
+  },
+  {
+    "id": "12",
+    "img": "https://i.ibb.co.com/5WRSrKT6/landingpage.png",
+    "name": "Landing Page E-commerce",
+    "description": "Full-stack landing page and order management app for a small ecommerce or product-selling business.",
+    "technology": "Node.js, Express.js, TypeScript, MongoDB, Mongoose, JWT, Zod, Multer, Cloudinary, Nodemailer, React, TypeScript, Tailwind CSS, Redux Toolkit and RTK Query, Framer Motion",
+    "liveLink": "https://landingpage-mamun.vercel.app/",
+    "client": "https://github.com/MMamunurRashid/landing-page-ts",
+    "server": "https://github.com/MMamunurRashid/landing-page-ts"
+  },
+  {
+    "id": "11",
+    "img": "https://i.ibb.co/J3pLhWT/craft-hub-dp.png",
+    "name": "Craft Hub",
+    "description": "Craft marketplace with role-based dashboards for admin, seller, and buyers.",
+    "technology": "React, Nodejs, Express, MongoDB, TailwindCSS, Firebase, JWT etc.",
+    "liveLink": "https://craft-hub.web.app/",
+    "client": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/prcticum-project-client",
+    "server": "https://github.com/MMamunurRashid/Craft-Hub/tree/main/practicum-project-server"
+  },
+  {
+    "id": "1",
+    "img": "https://i.ibb.co/mRBQWNd/foodo.png",
+    "name": "Foodo",
+    "description": "Restaurant management system with secure user roles, ordering, and dashboards.",
+    "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
+    "liveLink": "https://rms-foodo.web.app/",
+    "client": "https://github.com/MMamunurRashid/Foodo",
+    "server": "https://github.com/MMamunurRashid/Foodo-Server"
+  },
+  {
+    "id": "2",
+    "img": "https://i.ibb.co/SVxDYZq/Recycle-Clothes.jpg",
+    "name": "Recycle Clothes",
+    "description": "Eco-friendly marketplace to sell and buy secondhand clothes securely.",
+    "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
+    "liveLink": "https://recycle-clothe.web.app/",
+    "client": "https://github.com/MMamunurRashid/Used-Product-Resale",
+    "server": "https://github.com/MMamunurRashid/Used-Product-Resale-Server"
+  },
+  {
+    "id": "3",
+    "img": "https://i.ibb.co/7jCryNg/Doctors-portal.jpg",
+    "name": "Doctors Portal",
+    "description": "Appointment booking platform for patients and doctors with role access.",
+    "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
+    "liveLink": "https://doctors-portal-254e6.web.app/",
+    "client": "https://github.com/MMamunurRashid/doctors-portal-client",
+    "server": "https://github.com/MMamunurRashid/doctors-portal-server"
+  },
+  {
+    "id": "4",
+    "img": "https://i.ibb.co/C7GGYty/Smile-Photography.jpg",
+    "name": "Smile Photography",
+    "description": "Photography service platform with bookings, reviews, and user dashboards.",
+    "technology": "React, Nodejs, Express, MongoDB, Firebase, JWT etc.",
+    "liveLink": "https://smile-photography-df416.web.app/",
+    "client": "https://github.com/MMamunurRashid/Photograpy-Service",
+    "server": "https://github.com/MMamunurRashid/Photography-Service-Server"
+  },
+  {
+    "id": "5",
+    "img": "https://i.ibb.co/pbW5CZ6/course-hero.jpg",
+    "name": "Course Hero",
+    "description": "E-learning platform with course management and secure user enrollment.",
+    "technology": "React, Nodejs, Express, Firebase, TailwindCSS etc.",
+    "liveLink": "https://course-hero-1.web.app/",
+    "client": "https://github.com/MMamunurRashid/Course-Hero",
+    "server": "https://github.com/MMamunurRashid/Course-Hero-Server"
+  },
+  {
+    "id": "6",
+    "img": "https://i.ibb.co/hfpjtLf/quick-quiz.jpg",
+    "name": "Quick Quiz",
+    "description": "A simple quiz platform built with React and Netlify hosting.",
+    "technology": "React, React Router DOM, TailwindCSS(Daisy UI) Netlify etc.",
+    "liveLink": "https://quick-quiz-1.netlify.app/",
+    "client": "https://github.com/MMamunurRashid/Quick-Quiz"
+  },
+  {
+    "id": "7",
+    "img": "https://i.ibb.co/PtxfyqB/ema-john.jpg",
+    "name": "Ema-John E-commerce",
+    "description": "Full-stack e-commerce site with product search, cart, and authentication.",
+    "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
+    "liveLink": "https://ema-john-simple-492a4.web.app/",
+    "client": "https://github.com/MMamunurRashid/Ema-john-simple",
+    "server": "https://github.com/MMamunurRashid/ema-john-server"
+  },
+  {
+    "id": "8",
+    "img": "https://i.ibb.co/jbXQpgw/genius-car.jpg",
+    "name": "Genius Car - Car Service Center",
+    "description": "Car service booking and management site with admin dashboard.",
+    "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
+    "liveLink": "https://genius-car-850d5.web.app/",
+    "client": "https://github.com/MMamunurRashid/genius-car-client",
+    "server": "https://github.com/MMamunurRashid/genius-car-server"
+  },
+  {
+    "id": "9",
+    "img": "https://i.ibb.co/ns7F9HX/dragon-news.jpg",
+    "name": "Dragon News - News Portal",
+    "description": "News site built with authentication and categorized news feeds.",
+    "technology": "React, Node.js, Express.Js, MongoDB, TailwindCSS, Firebase etc.",
+    "liveLink": "https://dragon-news-c4e45.web.app/",
+    "client": "https://github.com/MMamunurRashid/dragon-news-client",
+    "server": "https://github.com/MMamunurRashid/dragon-news-server"
+  },
+  {
+    "id": "10",
+    "img": "https://i.ibb.co/1bq7Gqs/daily-activites.jpg",
+    "name": "Daily Activities",
+    "description": "Simple task planner to list and manage daily to-dos.",
+    "technology": "React, React Router DOM, TailwindCSS(Daisy UI), Netlify etc.",
+    "liveLink": "https://dailyactv.netlify.app/",
+    "client": "https://github.com/MMamunurRashid/Daily-Activities"
+  }
+]
